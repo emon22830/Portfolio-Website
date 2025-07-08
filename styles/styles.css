@@ -41,7 +41,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin: 20px 110px;
+        margin: 20px 200px;
 
     }
 
@@ -66,3 +66,35 @@ font-size: 45px;
             font-size: 20px;
     
         }
+
+
+/* Header */
+ header{
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+ }
+
+
+
+/* Banner Styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+  
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-family: 600;
+}
+
+.banner-content{
+    max-width: 580px;
+}
+
+.banner-profile-pic{
+    width: 580px;
+}
