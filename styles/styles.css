@@ -1,7 +1,35 @@
 
 
 
-.work-sans-regular {
+.work-sans-normal {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal; } 
+
+
+
+
+
+    /* Shared Style */
+
+    .text-primary{
+        color: #FD6E0A;
+    }
+
+
+
+
+
+
+
+
+
+    /* Nav Styles */
+    nav{
+        display: flex;
+    }
+
+    .nav-title{
+font-weight: 800;
+font-size: 24px;
+    }
